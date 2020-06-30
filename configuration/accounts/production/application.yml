@@ -1,2 +1,18 @@
 server:
   port: 7777
+spring:
+    jpa:
+      database: POSTGRESQL
+      show-sql: true
+      generalte-ddl: true
+      properties:
+        hibernate:
+          jdbc:
+            lob:
+              non_contextual_creation: true
+    datasource:
+      platform: postgres
+      url: jdbc:postgresql://localhost:5432/accounts
+      username: mateusz
+      passowrd: mateusz123
+
