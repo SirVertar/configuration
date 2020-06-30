@@ -1,18 +1,13 @@
 server:
   port: 7777
-spring:
-    jpa:
-      database: POSTGRESQL
-      show-sql: true
-      generate-ddl: true
-      properties:
-        hibernate:
-          jdbc:
-            lob:
-              non_contextual_creation: true
-    datasource:
-      platform: postgres
-      url: jdbc:postgresql://localhost:5432/accounts
-      username: mateusz
-      passowrd: mateusz123
+spring.jpa:
+  database: POSTGRESQL
+  show-sql: true
+
+spring.datasource:
+  platform: postgres
+  driverClassName: org.postgresql.Driver
+  url: jdbc:postgresql://localhost:5432/accounts
+  username: mateusz
+  password: mateusz123
 
