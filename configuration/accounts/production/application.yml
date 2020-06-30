@@ -4,7 +4,7 @@ spring:
     jpa:
       database: POSTGRESQL
       show-sql: true
-      generalte-ddl: true
+      generate-ddl: true
       properties:
         hibernate:
           jdbc:
