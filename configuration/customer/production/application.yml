@@ -3,6 +3,8 @@ server:
 spring.jpa:
   database: POSTGRESQL
   show-sql: true
+  generate-ddl: true
+  hibernate.ddl-auto: create
 
 spring.datasource:
   platform: postgres
@@ -10,6 +12,8 @@ spring.datasource:
   url: jdbc:postgresql://localhost:5432/customers
   username: mateusz
   password: mateusz123
+
+
 
 accounts:
   allow-get-accounts: true
