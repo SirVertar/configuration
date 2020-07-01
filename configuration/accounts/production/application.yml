@@ -12,5 +12,5 @@ spring.datasource:
   password: mateusz123
 
 accounts:
- allow-get-accounts: false
+ allow-get-accounts: true
 
