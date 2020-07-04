@@ -1,19 +1,15 @@
 server:
-  port: 7778
+  port: 7777
 
 spring.jpa:
   database: POSTGRESQL
   show-sql: true
-  generate-ddl: true
-
 spring.datasource:
   platform: postgres
   driverClassName: org.postgresql.Driver
-  url: jdbc:postgresql://localhost:5432/customers
+  url: jdbc:postgresql://localhost:5432/cards
   username: mateusz
   password: mateusz123
-
-
 
 accounts:
   allow-get-accounts: true
